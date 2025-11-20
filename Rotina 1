@@ -1,0 +1,44 @@
+Cenário 01: Inventário de estoque
+
+Teste 1 — Importação XML bem-sucedida (Positivo)
+Objetivo: Validar que o sistema importa corretamente um XML de produtos.
+Passos:
+Selecionar um XML válido contendo produtos.
+Executar a importação.
+Verificar se todos os produtos foram cadastrados com código, descrição, unidade e estoque.
+
+Resultado esperado:
+ Importação concluída sem erros.
+ Produtos aparecem na listagem.
+https://drive.google.com/file/d/10DZ3u2sJDcvG7pdHrZ4eoIurqMsrpXRm/view?usp=sharing
+
+---------------------------------------------------------------------------------------------
+
+Teste 2 — Lançamento de inventário com contagem correta (Positivo)
+Objetivo: Garantir que o sistema aceite uma contagem física correta e gere ajustes mínimos.
+Passos:
+Registrar contagens idênticas ao estoque atual.
+Lançar inventário no sistema.
+Confirmar ajustes.
+
+Resultado esperado:
+ Sem divergências relevantes.
+ Ajustes aplicados corretamente.
+
+https://drive.google.com/file/d/1IRTgaZLO8ZAP_dN3ZZBiK8ISVz8IyYW4/view?usp=sharing
+
+---------------------------------------------------------------------------------------------
+
+Teste 3 — Importação de XML inválido (Negativo)
+Objetivo: Validar o comportamento do sistema quando o arquivo XML está incorreto.
+Passos:
+Selecionar um XML com estrutura errada ou produtos duplicados.
+Tentar importar.
+Observar mensagens de erro.
+
+Resultado esperado:
+ O sistema bloqueia a importação.
+ Mensagens de erro claras são exibidas.
+ Nada é salvo no banco de dados.
+
+https://drive.google.com/file/d/1FjKbyN_xO4Thz0ppRcuotzsKtemhSrTG/view?usp=sharing
