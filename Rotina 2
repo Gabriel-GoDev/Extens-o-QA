@@ -1,0 +1,49 @@
+Caso de Teste 1 — Venda com múltiplos itens e desconto aplicado (Positivo)
+
+Objetivo: Validar que o sistema permite iniciar uma venda com 5 itens e aplicar desconto corretamente.
+
+Passos:
+Iniciar uma nova venda no PDV.
+Adicionar 5 itens diferentes ao carrinho.
+Verificar o valor total recalculado.
+
+Resultado Esperado:
+ Os 5 itens aparecem na venda.
+ O total da venda é atualizado com base no desconto.
+
+-------------------------------------------------------------------------------
+
+Caso de Teste 2 — Finalização com pagamento misto (Positivo)
+
+Objetivo: Garantir que o PDV aceite pagamento dividido entre cartão e dinheiro.
+
+Passos:
+Após adicionar os 5 itens e aplicar o desconto, clicar em "Finalizar Venda".
+Selecionar "Pagamento Misto".
+Informar 70% no cartão e 30% em dinheiro.
+Confirmar a venda.
+Realizar o fechamento de caixa.
+Validar resumo financeiro separado por tipo de documento (cartão, dinheiro).
+
+Resultado Esperado:
+ Pagamento misto é aceito sem erro.
+ Venda é finalizada com cupom gerado.
+ Fechamento de caixa mostra corretamente:
+
+-------------------------------------------------------------------------------
+
+Caso de Teste 3 — Pagamento misto inconsistente (Negativo)
+
+Objetivo: Validar o comportamento do sistema quando o pagamento misto não fecha o valor da venda.
+Passos:
+Iniciar nova venda com 5 itens.
+Aplicar desconto em 1 item.
+Selecionar pagamento misto.
+
+Tentar finalizar a venda.
+
+Resultado Esperado:
+ Sistema impede a finalização.
+ Mensagem de erro clara: "Pagamento não corresponde ao total da venda".
+ Nenhum documento fiscal é emitido.
+ Venda permanece pendente até correção do valor
