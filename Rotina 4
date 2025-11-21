@@ -1,20 +1,20 @@
 Caso de Teste 1 — Cadastro e operações corretas (Positivo)
 
 Passos:
-Cadastrar 6 clientes (PF e PJ).
+Cadastrar clientes (PF e PJ).
 Habilitar limite de crédito para 2 clientes.
 Adicionar dependentes para 2 clientes.
-Registrar compras para os 6 clientes, incluindo compras feitas pelos dependentes.
+Registrar compras para os clientes.
 Realizar compras dentro do limite para um dos clientes com limite.
 
-Gerar relatório de contas a receber.
 
 Resultado Esperado:
  Clientes cadastrados corretamente.
  Limites habilitados para os clientes escolhidos.
  Dependentes incluídos.
- Compras registradas sem erros.
- Relatório de contas a receber mostra todos os valores corretamente.
+ Compras registradas sem erros. ( Observação )
+
+https://drive.google.com/file/d/1mfqkgs2qe6lhK_3BL3rz_4QbcZjKpeBW/view?usp=sharing
 
 -------------------------------------------------------------------------
 
@@ -27,8 +27,10 @@ Registrar nova compra após a atualização.
 
 Resultado Esperado:
  Limite de crédito atualizado com sucesso.
- Sistema aceita compra dentro do novo limite.
+ Sistema aceita compra dentro do novo limite. ( Observação )
  Relatório reflete o novo limite e os novos valores pendentes.
+
+https://drive.google.com/file/d/1zZeRl1AneRq7d-R3tHB8n8oapz9A808H/view?usp=sharing
 
 -------------------------------------------------------------------------
 
@@ -40,5 +42,9 @@ Tentar registrar uma compra com valor maior que o limite disponível.
 
 Resultado Esperado:
  Sistema bloqueia a compra.
- Mensagem de erro exibida (“limite insuficiente”).
+ Mensagem de erro exibida.
  Nenhuma cobrança é gerada.
+
+https://drive.google.com/file/d/1RNSu_GTFOjtopHGOe2oBuGKioFEH1gH3/view?usp=sharing
+
+
