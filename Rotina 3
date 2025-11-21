@@ -4,7 +4,7 @@ Passos:
 Cadastrar fornecedor.
 Criar pedido de compra com 10 itens.
 Parcelar em 5 vezes.
-Pagar 1ª parcela totalmente e 2ª parcialmente.
+Pagar 1ª parcela totalmente e 2ª.
 
 Fechar o caixa.
 
@@ -13,7 +13,8 @@ Resultado Esperado:
  Parcelas criadas corretamente.
  Pagamentos registrados.
  Fechamento de caixa concluído.
- Estoque atualizado somente para itens recebidos.
+
+https://drive.google.com/file/d/1Pe7jSNG7aKjEGzdSRk4FRGt8TlT4NiQg/view?usp=sharing
 
 -----------------------------------------------------------------------------
 
@@ -26,6 +27,8 @@ Resultado Esperado:
  Sistema impede o cadastro.
  Mensagem clara de erro exibida.
  Pedido não pode ser iniciado.
+
+https://drive.google.com/file/d/1VrfzkVkc4-uCmo_-VJgk5cu2CI_27Eyy/view?usp=sharing
 
 -----------------------------------------------------------------------------
 
@@ -40,4 +43,6 @@ Tentar fechar o caixa.
 Resultado Esperado:
  Sistema não permite fechar.
  Alerta sobre pagamentos pendentes.
+
+https://drive.google.com/file/d/16Peq7m8DI_jU_3H2fah4PHapNkZkVqat/view?usp=sharing
  
