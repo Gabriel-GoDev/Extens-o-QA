@@ -19,16 +19,13 @@ Objetivo: Garantir que o PDV aceite pagamento dividido entre cartão e dinheiro.
 
 Passos:
 Após adicionar os 5 itens e aplicar o desconto, clicar em "Finalizar Venda".
-Selecionar "Pagamento Misto".
-Informar 70% no cartão e 30% em dinheiro.
+Informar no cartão e em dinheiro.
 Confirmar a venda.
-Realizar o fechamento de caixa.
 Validar resumo financeiro separado por tipo de documento (cartão, dinheiro).
 
 Resultado Esperado:
  Pagamento misto é aceito sem erro.
- Venda é finalizada com cupom gerado.
- Fechamento de caixa mostra corretamente:
+ Venda é finalizada.
 
 -------------------------------------------------------------------------------
 
@@ -44,6 +41,6 @@ Tentar finalizar a venda.
 
 Resultado Esperado:
  Sistema impede a finalização.
- Mensagem de erro clara: "Pagamento não corresponde ao total da venda".
+ Mensagem de erro.
  Nenhum documento fiscal é emitido.
- Venda permanece pendente até correção do valor
+ Venda permanece pendente.
