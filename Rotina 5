@@ -2,14 +2,14 @@ Caso de Teste 1 — Fechamento correto dos 3 caixas (Positivo)
 
 Passos:
 Simular 3 caixas abertos simultaneamente.
-Registrar vendas com diferentes tipos de documentos (cartão, dinheiro, pix).
-Realizar retiradas de valores.
-Fechar cada caixa.
+Registrar vendas com diferentes tipos de documentos.
+
 
 Resultado Esperado:
  Cada caixa fecha corretamente.
  Tipos de documentos aparecem no fechamento.
- Totais batem com o relatório de vendas.
+
+https://drive.google.com/file/d/1EAMoSJq4lqR-F2DIf_ITgFUSh2_WET3D/view?usp=sharing
 
 -----------------------------------------------------------------------------
 
@@ -17,13 +17,14 @@ Caso de Teste 2 — Conciliar valores após fechamento (Positivo)
 
 Passos:
 Registrar vendas variadas em 3 caixas.
-Realizar retiradas.
 Fechar os caixas.
 Comparar totais de cada caixa com relatório geral de vendas.
 
 Resultado Esperado:
  Totais por tipo de documento conferem.
- Relatório geral apresenta valores idênticos à soma dos três caixas.
+ Relatório geral apresenta valores.
+
+https://drive.google.com/file/d/1NVKvWNKL8iy3ODPyM6PgyabqD9LOxwlU/view?usp=sharing
 
 -----------------------------------------------------------------------------
 
@@ -32,9 +33,11 @@ Caso de Teste 3 — Fechamento com valores inconsistentes (Negativo)
 Passos:
 Registrar vendas em um caixa.
 Alterar manualmente um valor de retirada ou total.
-Tentar fechar o caixa.
+Confirmar retirada de valores.
 
 Resultado Esperado:
  Sistema não permite fechar.
  Mensagem de erro sobre divergência de valores.
- Caixa permanece aberto até correção.
+
+https://drive.google.com/file/d/1zFPG19MCQjfOSyKcov2i925tFHNapsDy/view?usp=sharing
+
