@@ -1,0 +1,43 @@
+Caso de Teste 1 — Compra completa com pagamento correto (Positivo)
+
+Passos:
+Cadastrar fornecedor.
+Criar pedido de compra com 10 itens.
+Parcelar em 5 vezes.
+Pagar 1ª parcela totalmente e 2ª parcialmente.
+
+Fechar o caixa.
+
+Resultado Esperado:
+ Cadastro e pedido realizados.
+ Parcelas criadas corretamente.
+ Pagamentos registrados.
+ Fechamento de caixa concluído.
+ Estoque atualizado somente para itens recebidos.
+
+-----------------------------------------------------------------------------
+
+Caso de Teste 2 — Cadastro de fornecedor inválido (Negativo)
+
+Passos:
+Tentar cadastrar fornecedor com CNPJ inválido ou campos obrigatórios vazios.
+
+Resultado Esperado:
+ Sistema impede o cadastro.
+ Mensagem clara de erro exibida.
+ Pedido não pode ser iniciado.
+
+-----------------------------------------------------------------------------
+
+Caso de Teste 3 — Fechamento de caixa com parcelas não pagas (Negativo)
+
+Passos:
+Criar pedido de compra.
+Gerar 5 parcelas.
+Não pagar nenhuma parcela.
+Tentar fechar o caixa.
+
+Resultado Esperado:
+ Sistema não permite fechar.
+ Alerta sobre pagamentos pendentes.
+ 
