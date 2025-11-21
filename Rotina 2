@@ -11,6 +11,8 @@ Resultado Esperado:
  Os 5 itens aparecem na venda.
  O total da venda é atualizado com base no desconto.
 
+https://drive.google.com/file/d/1kYvUO3aC3_WkpcgEfpJUVqpDBbb0Qtm_/view?usp=sharing
+
 -------------------------------------------------------------------------------
 
 Caso de Teste 2 — Finalização com pagamento misto (Positivo)
@@ -27,6 +29,8 @@ Resultado Esperado:
  Pagamento misto é aceito sem erro.
  Venda é finalizada.
 
+https://drive.google.com/file/d/1OIDuaXtuhoHWVK8GJPiV8lkMmhnSiLBC/view?usp=sharing
+
 -------------------------------------------------------------------------------
 
 Caso de Teste 3 — Pagamento misto inconsistente (Negativo)
@@ -42,5 +46,6 @@ Tentar finalizar a venda.
 Resultado Esperado:
  Sistema impede a finalização.
  Mensagem de erro.
- Nenhum documento fiscal é emitido.
  Venda permanece pendente.
+
+https://drive.google.com/file/d/1zdaMBrRjdOyrWX9EbiVEjls-yjmjDmXO/view?usp=sharing
